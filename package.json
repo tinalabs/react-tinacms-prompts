@@ -5,7 +5,10 @@
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
-    "start": "npm run watch",
+    "prepublish": "yarn run build",
+    "prepush": "yarn run build",
+    "prepack": "yarn run build",
+    "start": "yarn run watch",
     "watch": "tinacms-scripts watch",
     "dev": "tinacms-scripts dev",
     "build": "tinacms-scripts build",
@@ -64,7 +67,8 @@
     "tslib": "^1.10.0",
     "typedoc": "^0.16.2",
     "typescript": "^3.8.2",
-    "typescript-plugin-styled-components": "^1.4.4"
+    "typescript-plugin-styled-components": "^1.4.4",
+    "yarn": "^1.22.4"
   },
   "peerDependencies": {
     "react": "^16.13.1",
