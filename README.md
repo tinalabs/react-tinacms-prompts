@@ -9,7 +9,7 @@ This package allows one to add prompts to pop to when the cms is enabled (edit m
 ### Install the package
 
 ```bash
-yarn add @tinalabs/react-tinacms-prompts
+yarn add react-tinacms-prompts
 ```
 
 ### Wrap your app in a provider

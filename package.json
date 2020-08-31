@@ -1,5 +1,5 @@
 {
-  "name": "@tinalabs/react-tinacms-prompts",
+  "name": "react-tinacms-prompts",
   "version": "0.1.0",
   "description": "",
   "main": "build/index.js",
